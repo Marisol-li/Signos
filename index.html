@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signos</title>
+    <link rel="stylesheet" href="./css/estilos.css" type="text/css">
+</head>
+<header>
+    <h1>Signos</h1>
+</header>
+<body>
+
+    <div class="tamaño" id="container">
+        <form class="formu" id="horos_signo">
+            <label for="nombre">Año:</label>
+            <input type="number" id="anno" name="anno">
+            <button type="submit" id="boton">Buscar Signo</button>
+        </form>
+    </div>
+
+    <div id="result" class="result">
+        <div class="tarjeta">
+            <h2>Resultado del resto:</h2>
+            <p id="resto"></p>
+        </div>
+        <div class="tarjeta">
+            <h2>Tu signo es:</h2>
+            <p id="signo"></p>
+        </div>
+        <div class="tarjeta">
+            <img id="imagen" src="./img/horoscopo_chino.jpeg" alt="Imagen">
+        </div>
+    </div>
+  
+    <script src="./js/funciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 ;
+    background-color: #f0f0f0;
+}
+
+header{
+    background-color:  #5976bf;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}	
+
+.tamaño {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 100px auto ;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    margin: 100px auto;
+}
+.formu {
+    margin: 10px 0;
+}
+#boton{
+    background-color: #5976bf;
+    color: #fff;
+}
+.tarjeta {
+    color: #5976bf;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+}
+.tarjeta img {
+    max-width: 100px;
+}
+.result {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+}
